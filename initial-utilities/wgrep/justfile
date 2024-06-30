@@ -1,0 +1,8 @@
+default: wgrep
+
+wgrep:
+    gcc -o wgrep wgrep.c -Wall -Werror
+clean:
+    rm -f wgrep
+test:
+    ./test-wgrep.sh
