@@ -1,4 +1,8 @@
+!*.*
+
 **/tests-out/
 
 wcat
 wgrep
+wzip
+wunzip
