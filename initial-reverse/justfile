@@ -1,0 +1,8 @@
+default: reverse
+
+reverse:
+    gcc -o reverse reverse.c -Wall -Werror
+clean:
+    rm -f reverse
+test:
+    ./test-reverse.sh
